@@ -15,21 +15,24 @@ not yet
 * **SCREEN** : 1.3 Inch oled screen SH110X
 * **INPUT**  : 2x Touch capacitive switches (Standard micro switches work but case needs to be tweaked)
 * **AUDIO**  : DF Player Mini & small speaker (optional)
+
+`note: you need a sd card for mp3 audio`
+
 3D files have been provided for the case of the beeper
 
 ## Required Libraries
 
-- `Adafruit GFX Library`
-- `Adafruit SH110X`
-- `wifi`
-- `WebServer`
+- `Adafruit SH110X` (with their dependency)
+- `Preinstalled ESP libraries`
+
+`lookk at .ino for the full required libraries.`
 
 ## Instructions
 1. Click the code button and click download ZIP
 2. unzip and open the .ino file
 3. upload code to esp32 c3
 4. wire it just like the schematic in pictures folder
-5. load up ur micro sd card and drag scramble.mp3 and prescript.txt (this is some premade prescript where u can get randomly by pressing both buttons at the same time) into the sd card
+5. load up ur micro sd card and put scramble.mp3 to the sd card
 6. assemble everything and there you go! go to the wild and larp as the black silence
 
 this project wouldnt be possible without Kritzkingvoid Prescript web project
