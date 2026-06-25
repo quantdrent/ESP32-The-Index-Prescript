@@ -19,7 +19,7 @@ not yet
 
 `note: you need a sd card for mp3 audio`
 
-3D files have been provided for the case of the beeper
+print beepercase.stl with 0.16 with 70% infill for the case and 25% for the lid or just use the beepercase.3mf file
 
 ## Required Libraries
 
